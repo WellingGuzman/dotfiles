@@ -26,6 +26,7 @@ alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.c
 
 # Undo a `git push`
 alias undopush="git push -f origin HEAD^:master"
+alias undocommit="git reset --soft HEAD~1"
 
 # Shortcuts
 alias g="git"
