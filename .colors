@@ -1,0 +1,17 @@
+##
+# Shell colors
+# Note: In OS X Terminal, open preferences and make sure you check
+# 'Display ANSI colors' and 'Use bright colors for bold text'
+# then you can adjust each color and bright color variant there
+##
+ 
+BLACK="\[\e[0;30m\]"        GREY="\[\e[1;30m\]"           # in preferences: black
+RED="\[\e[0;31m\]"          BRIGHT_RED="\[\e[1;31m\]"     # in preferences: red
+GREEN="\[\e[0;32m\]"        BRIGHT_GREEN="\[\e[1;32m\]"   # in preferences: green
+ORANGE="\[\e[0;33m\]"       YELLOW="\[\e[1;33m\]"         # in preferences: yellow
+PURPLE="\[\e[0;34m\]"       BLUE="\[\e[1;34m\]"           # in preferences: blue
+PINK="\[\e[0;35m\]"         MAGENTA="\[\e[1;35m\]"        # in preferences: magenta
+LIGHT_BLUE="\[\e[0;36m\]"   CYAN="\[\e[1;36m\]"           # in preferences: cyan
+WHITE="\[\e[0;37m\]"        BOLD_WHITE="\[\e[1;37m\]"     # in preferences: white
+ 
+NO_COLOR="\[\e[0m\]"
