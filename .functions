@@ -2,3 +2,8 @@
 function md() {
 	mkdir -p "$@" && cd "$@"
 }
+
+# find shorthand
+function f() {
+    find . -name "$1"
+}
