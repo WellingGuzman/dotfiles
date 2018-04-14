@@ -50,6 +50,10 @@ alias undocommit="git reset --soft HEAD~1"
 alias g="git"
 alias v="vim"
 
+# docker
+alias dcs="docker stop $(docker ps -a -q)"
+alias dcr="docker rm $(docker ps -a -q)"
+
 # Show hidden files in Finder
 alias showhidden="defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder"
 # Hide hidden files in Finder
