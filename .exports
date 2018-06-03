@@ -1,6 +1,0 @@
-# MAMP
-export PATH="/Applications/MAMP/bin/php/php5.5.3/bin:$PATH"
-
-# MONGODB
-export MONGO_PATH=/usr/local/mongodb
-export PATH=$PATH:$MONGO_PATH/bin
